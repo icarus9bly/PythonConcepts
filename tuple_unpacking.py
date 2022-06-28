@@ -7,3 +7,9 @@ print(first)
 print(rest)
 *begining, last = numbers
 print(last)
+
+# Deep unpacking
+numbers = 1, (1,2,3)
+num1, (x,y,z) = numbers
+print(num1)
+print(x,y,z)
